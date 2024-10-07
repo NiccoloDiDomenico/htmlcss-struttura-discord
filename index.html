@@ -13,7 +13,7 @@
     <!-- header -->
     <header class="header">
         <!-- add the banner container-flex -->
-        <div class="container banner-header">
+        <div class="container banner-header flex-container">
             <div class="nav logo">
                 <span>logo</span>
             </div>
@@ -33,40 +33,40 @@
 
     <!-- main -->
     <main>
-        <!-- add main section -->
-        <section class="section-blue">
+        <!-- add hero section -->
+        <section class="section bg-blue">
             <div class="container-small">
 
             </div>
         </section>
 
-        <!-- add row 1 -->
-        <section class="section-white">
-            <div class="container row1">
-                <div class="item sky"></div>
-                <div class="item pink"></div>
+        <!-- add section 1 -->
+        <section class="section bg-white">
+            <div class="container flex-container">
+                <div class="col-60"></div>
+                <div class="col-40"></div>
             </div>
         </section>
 
-        <!-- add row 2 -->
-        <section class="section-grey">
-            <div class="container row2">
-                <div class="item sky"></div>
-                <div class="item pink"></div>
+        <!-- add section 2 -->
+        <section class="section bg-grey">
+            <div class="container flex-container">
+                <div class="col-40"></div>
+                <div class="col-60"></div>
             </div>
         </section>
 
-        <!-- add row 3 -->
-        <section class="section-white">
-            <div class="container row1">
-                <div class="item sky"></div>
-                <div class="item pink"></div>
+        <!-- add section 3 -->
+        <section class="section bg-white">
+            <div class="container flex-container">
+                <div class="col-60"></div>
+                <div class="col-40"></div>
             </div>
         </section>
 
-        <!-- add row 4 -->
-        <section class="section-grey">
-            <div class="container row4">
+        <!-- add section 4 -->
+        <section class="section bg-grey">
+            <div class="container flex-container">
 
             </div>
         </section>
@@ -76,22 +76,26 @@
 
     <!-- footer -->
     <footer>
-        <!-- add footer row 1 -->
-        <section class="section-dark">
-            <div class="container footer">
-                <div class="item-footer pink"></div>
-                <div class="item-footer lightgreen"></div>
-                <div class="item-footer lightgreen"></div>
-                <div class="item-footer lightgreen"></div>
-                <div class="item-footer lightgreen"></div>
+
+        <!-- add top footer -->
+        <div class="section bg-dark">
+            <div class="container top-banner-footer flex-container">
+                <div class="col-30"></div>
+                <div class="col-70 flex-container">
+                    <div class="col-25"></div>
+                    <div class="col-25"></div>
+                    <div class="col-25"></div>
+                    <div class="col-25"></div>
+                    <div class="col-25"></div>
+                </div>
             </div>
-        </section>
+        </div>
 
         <hr>
 
-        <!-- add footer row 2 -->
-        <section class="section-dark">
-            <div class="container banner-footer">
+        <!-- add bottom footer -->
+        <div class="section bg-dark">
+            <div class="container bottom-banner-footer flex-container">
                 <div class="nav-footer logo">
                     <span>Logo</span>
                 </div>
@@ -99,7 +103,9 @@
                     <span>Bottone</span>
                 </div>
             </div>
-        </section>
+        </div>
+
+        <hr>
 
     </footer>
     <!-- /footer -->
